@@ -1,0 +1,31 @@
+{
+  "name": "mongohw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Co-su/mongoHw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Co-su/mongoHw/issues"
+  },
+  "homepage": "https://github.com/Co-su/mongoHw#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "browserify": "^15.2.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.0.1",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0"
+  }
+}
