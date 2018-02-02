@@ -1,0 +1,96 @@
+
+.wrapper {
+    background-color: #d7dff2;
+    width: 1000px;
+}
+
+body {
+    background-image: url(gray_jean.jpg);
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 30pt;
+    font-weight: bolder;
+    color: #d7dff2;
+}
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #a2b2d6;
+}
+h4 {
+    font-family: Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: light;
+    color: #d7dff2;
+}
+
+#articletag {
+    color: #d7dff2;
+    background-color: #395484;
+    margin-bottom: 10px;
+}
+#articlebox {
+    margin-bottom: 10px;
+    color: #d7dff2;
+    background-color: #395484;
+    padding-bottom: 10px;
+}
+#notetag {
+    color: #d7dff2;
+    background-color: #395484;
+    margin-bottom: 10px;
+}
+#notebox {
+    margin-bottom: 10px;
+    color: #d7dff2;
+    background-color: #395484;
+    height: 100%;
+    padding-bottom: 10px;
+}
+#bodyinput {
+    width: 100%;
+    height: 300px;
+}
+
+#topBanner {
+    background-color: #203963;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#buttondiv {
+    margin-bottom: 20px;
+}
+#footer{
+    border-top: 5px #203963;
+    color: #d7dff2;
+    background-color: #395484;
+    font-size: 6pt;
+}
+
+#titleinput {
+    color: #395484;
+}
+
+#bodyinput {
+    color: #395484;
+}
+
+a:link {
+    text-decoration: none;
+    color: #d7dff2;
+}
+a:visited {
+    text-decoration: none;
+    color: #d7dff2;
+}
+a:hover {
+    text-decoration: underline;
+    color: #d7dff2;
+}
+a:active {
+    text-decoration: underline;
+    color: #d7dff2;
+}

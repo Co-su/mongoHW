@@ -1,12 +1,12 @@
 $.getJSON("/articles", function(data) {
   for (var i = 0; i < data.length; i++) {
-    $("#articles").append("<p data-id='" + data[i]._id + "'>" + "<h3>" + data[i].title + "</h3>" + "<br />" + "<a href = 'https://www.fantasyflightgames.com" + data[i].link + "'>Read more...</a><br /></p>");
+    $("#articles").append("<h3><p data-id='" + data[i]._id + "'>" + data[i].title + "</p></h3>");
+    $("#articles").append("<a href='https://www.fantasyflightgames.com" + data[i].link + "'>Read more...</a><br />");
   }
 });
 
-
 $(document).on("click", "p", function() {
-  console.log("yo");
+
   $("#notes").empty();
   // Save the id from the p tag
   var thisId = $(this).attr("data-id");
@@ -19,10 +19,10 @@ $(document).on("click", "p", function() {
     .then(function(data) {
       console.log(data);
       $("#notes").append("<h2>" + data.title + "</h2>");
-      $("#notes").append("<input id='titleinput' name='title' >");
+      $("#notes").append("<input id='titleinput' name='title' placeholder='Subject'>");
       // A textarea to add a new note body
       $("#notes").append("<textarea id='bodyinput' name='body'></textarea>");
-      $("#notes").append("<button data-id='" + data._id + "' id='savenote'>Save Note</button>");
+      $("#notes").append("<button data-id='" + data._id + "' class='btn btn-primary' id='savenote' placeholder='Subject'>Save Note</button>");
 
       if (data.note) {
         $("#titleinput").val(data.note.title);
